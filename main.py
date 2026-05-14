@@ -33,7 +33,7 @@ layer = FeatureLayer(SURVEY_LAYER_URL, gis=gis)
 # =========================
 # TEMPLATE
 # =========================
-TEMPLATE_PATH = "FORMAL_FOOD_PREMISES_INPECTION_REPORT.docx"
+TEMPLATE_PATH = "Salons_inspection_form_report.docx"
 
 if not os.path.exists(TEMPLATE_PATH):
     raise Exception(f"{TEMPLATE_PATH} not found in project root")
